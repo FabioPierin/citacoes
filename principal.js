@@ -7,5 +7,5 @@ function trocaBanner() {
   	bannerAtual = (bannerAtual + 1) % 2;
   	document.querySelector('h2#mensagem').textContent = banners[bannerAtual];
 	}
-
+//Change the lesson 3
 setInterval(trocaBanner, 2000);
